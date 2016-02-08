@@ -1,4 +1,4 @@
-var ArticleEntry = Backbone.model.extend ( {
+var ArticleEntry = Backbone.Model.extend ( {
   initialize: function() {
   }
 });

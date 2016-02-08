@@ -4,7 +4,7 @@ InputView = Backbone.View.extend ({
   //   placeholder: 'What do you want to read about?'
   // },
   events: {
-    'click': this.handleClick(this)
+    'click input': function(){this.handleClick(this);}
   },
   initialize: function () {
     this.render();
